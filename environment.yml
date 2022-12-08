@@ -1,0 +1,31 @@
+name: jcesr_ml
+channels:
+  - conda-forge
+  - openbabel
+  - matsci
+  - pytorch
+  - rdkit
+dependencies:
+  - libgfortran
+  - python==3.7.2
+  - numpy==1.15.4
+  - pymatgen==2020.4.29
+  - pandas==0.23.4
+  - scikit-learn==0.20.0
+  - pytorch==0.4.1
+  - matplotlib==3.0.3
+  - openbabel==2.4.1
+  - tensorflow==1.13.1
+  - rdkit==2019.03.2.0
+  - xlrd==1.2.0
+  - jupyterlab
+  - pytest
+  - pip
+  - pip:
+    - mdf_forge==0.6.4
+    - dlhub_sdk==0.7.4
+    - globus_sdk==1.7.1
+    - git+https://github.com/WardLT/schnetpack.git@add_inputs#egg=schnetpack
+    - git+https://github.com/WardLT/qml.git@change_xyz#egg=qml
+    - megnet==0.3.0
+    - -e .
