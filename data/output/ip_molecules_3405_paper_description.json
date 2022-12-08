@@ -1,0 +1,254 @@
+{
+  "datacite": {
+    "creators": [
+      {
+        "givenName": "Naveen",
+        "familyName": "Dandu",
+        "affiliations": [
+          "Argonne National Laboratory"
+        ]
+      },
+      {
+        "givenName": "Logan",
+        "familyName": "Ward",
+        "affiliations": [
+          "Argonne National Laboratory"
+        ]
+      },
+      {
+        "givenName": "Rajeev",
+        "familyName": "Assary",
+        "affiliations": [
+          "Argonne National Laboratory"
+        ]
+      },
+      {
+        "givenName": "Badri",
+        "familyName": "Narayanan",
+        "affiliations": [
+          "Argonne National Laboratory"
+        ]
+      },
+      {
+        "givenName": "Larry",
+        "familyName": "Curtiss",
+        "affiliations": [
+          "Argonne National Laboratory"
+        ]
+      }
+    ],
+    "titles": [
+      {
+        "title": "IPs of 3405 GDB9_heavyatoms_charged Molecules"
+      }
+    ],
+    "publisher": "DLHub",
+    "publicationYear": "2022",
+    "identifier": {
+      "identifier": "10.YET/UNASSIGNED",
+      "identifierType": "DOI"
+    },
+    "descriptions": [],
+    "fundingReferences": [],
+    "relatedIdentifiers": [],
+    "alternateIdentifiers": [],
+    "rightsList": [],
+    "resourceType": {
+      "resourceTypeGeneral": "Dataset"
+    }
+  },
+  "dlhub": {
+    "version": "0.7.4",
+    "domains": [],
+    "visible_to": [
+      "public"
+    ],
+    "name": "ip_molecules_3405_paper",
+    "files": {
+      "data": "data/output/ip_molecules_3405_paper.json"
+    },
+    "type": "dataset"
+  },
+  "dataset": {
+    "format": "json",
+    "read_options": {
+      "lines": true
+    },
+    "columns": [
+      {
+        "name": "B3LYP_IP",
+        "type": "float"
+      },
+      {
+        "name": "B3LYP_IP_ASC",
+        "type": "float"
+      },
+      {
+        "name": "B3LYP_large_IP",
+        "type": "float"
+      },
+      {
+        "name": "B3LYP_large_IP_ASC",
+        "type": "float"
+      },
+      {
+        "name": "G4MP2_IP",
+        "type": "float"
+      },
+      {
+        "name": "G4MP2_IP_ASC",
+        "type": "float"
+      },
+      {
+        "name": "b3lyp_asc_cation",
+        "type": "float"
+      },
+      {
+        "name": "b3lyp_asc_neutral",
+        "type": "float"
+      },
+      {
+        "name": "b3lyp_large_asc_cation",
+        "type": "float"
+      },
+      {
+        "name": "b3lyp_large_asc_neutral",
+        "type": "float"
+      },
+      {
+        "name": "electronic_neutral_b3lyp",
+        "type": "float"
+      },
+      {
+        "name": "electronic_neutral_b3lyp_large",
+        "type": "float"
+      },
+      {
+        "name": "electronic_neutral_wB97Xd",
+        "type": "float"
+      },
+      {
+        "name": "electronic_oxidized_b3lyp",
+        "type": "float"
+      },
+      {
+        "name": "electronic_oxidized_b3lyp_large",
+        "type": "float"
+      },
+      {
+        "name": "electronic_oxidized_wB97Xd",
+        "type": "float"
+      },
+      {
+        "name": "filename",
+        "type": "python object",
+        "description": "Filename, which contains the name of the molecule"
+      },
+      {
+        "name": "g4mp2_asc_cation",
+        "type": "float"
+      },
+      {
+        "name": "g4mp2_asc_neutral",
+        "type": "float"
+      },
+      {
+        "name": "in_holdout",
+        "type": "boolean",
+        "description": "Whether the entry is in the test set"
+      },
+      {
+        "name": "n_atoms",
+        "type": "integer",
+        "description": "Number of atoms"
+      },
+      {
+        "name": "n_electrons",
+        "type": "integer",
+        "description": "Number of electrons"
+      },
+      {
+        "name": "n_heavy_atoms",
+        "type": "integer",
+        "description": "Number of non-hydrogen atoms"
+      },
+      {
+        "name": "smiles",
+        "type": "python object"
+      },
+      {
+        "name": "source",
+        "type": "python object",
+        "description": "Source of the dataset"
+      },
+      {
+        "name": "u0_b3lyp",
+        "type": "float"
+      },
+      {
+        "name": "u0_b3lyp_large",
+        "type": "float"
+      },
+      {
+        "name": "u0_g4mp2",
+        "type": "float"
+      },
+      {
+        "name": "u0_oxidized_b3lyp",
+        "type": "float"
+      },
+      {
+        "name": "u0_oxidized_b3lyp_large",
+        "type": "float"
+      },
+      {
+        "name": "u0_oxidized_g4mp2",
+        "type": "float"
+      },
+      {
+        "name": "u0_oxidized_wB97Xd",
+        "type": "float"
+      },
+      {
+        "name": "u0_wB97Xd",
+        "type": "float"
+      },
+      {
+        "name": "wB97Xd_IP",
+        "type": "float"
+      },
+      {
+        "name": "wB97Xd_IP_ASC",
+        "type": "float"
+      },
+      {
+        "name": "wB97Xd_asc_cation",
+        "type": "float"
+      },
+      {
+        "name": "wB97Xd_asc_neutral",
+        "type": "float"
+      },
+      {
+        "name": "xyz",
+        "type": "XYZ file",
+        "description": "XYZ coordinates after relaxation"
+      },
+      {
+        "name": "xyz_oxidized",
+        "type": "python object"
+      },
+      {
+        "name": "zpe_b3lyp",
+        "type": "float"
+      },
+      {
+        "name": "zpe_oxidized_b3lyp",
+        "type": "float"
+      }
+    ],
+    "inputs": [
+      "xyz"
+    ]
+  }
+}
