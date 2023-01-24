@@ -12,7 +12,7 @@ dependencies:
   - pymatgen==2020.4.29
   - pandas==0.23.4
   - scikit-learn==0.20.0
-  - pytorch==0.4.1
+  - pytorch==1.1.*
   - matplotlib==3.0.3
   - openbabel==2.4.1
   - tensorflow==1.13.1
@@ -24,6 +24,6 @@ dependencies:
   - pip:
     - mdf_forge
     - dlhub_sdk
-    - git+https://github.com/WardLT/schnetpack.git@add_inputs#egg=schnetpack
+    - schnetpack==0.3.*
     - git+https://github.com/WardLT/qml.git@change_xyz#egg=qml
     - -e .
