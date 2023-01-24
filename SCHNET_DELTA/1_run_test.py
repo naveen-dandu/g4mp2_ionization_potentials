@@ -15,7 +15,7 @@ from scipy.stats import spearmanr, kendalltau
 import pandas as pd
 import numpy as np
 
-from moldesign.score.schnet import Moleculewise
+from jcesr_ml.schnet import Moleculewise
 
 
 def build_fn(atom_features: int = 128, message_steps: int = 8,
