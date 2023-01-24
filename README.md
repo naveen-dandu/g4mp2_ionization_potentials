@@ -12,3 +12,10 @@ conda env create --file environment.yml
 ```
 
 The environment is designed to work on Linux systems (e.g., Ubuntu, Windows Subsystem for Linux), and may also work on OS X.
+
+
+## Layout
+
+The `data` contains the datasets used in our study. 
+
+`FHCL_DELTA` and `SCHNET_DELTA` contain the scripts we used to create machine learning models.
